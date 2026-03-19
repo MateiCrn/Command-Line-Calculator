@@ -1,18 +1,24 @@
-Acest proiect implementează un calculator de buzunar în C++, cu funcționalități de bază și o memorie care salvează ultimele 10 operații efectuate.
-Clasa Calculator reține intern numărul curent (de tip double) și permite efectuarea operațiilor aritmetice clasice (adunare, scădere, înmulțire, împărțire),
-precum și operații avansate (ridicare la putere, radical, invers 1/x, negație).
+# C++ Command-Line Calculator with History
 
-Memoria este gestionată automat: la fiecare calcul, se salvează rezultatul și expresia asociată (ca string), păstrându-se doar ultimele 10.
-Sunt implementate funcții pentru afișarea memoriei, curățarea acesteia, resetarea numărului curent și reîncărcarea unui rezultat anterior.
+This project implements a functional pocket calculator in C++ using Object-Oriented Programming (OOP). Beyond basic arithmetic, the application features a dynamic memory system that tracks and stores the last 10 operations performed.
 
-Proiectul exemplifică utilizarea principiilor de programare orientată pe obiect (POO), inclusiv:
+> **Note:** This project was developed as a university assignment to demonstrate advanced C++ concepts, including manual memory management and operator overloading.
 
-          constructor de copiere și operator de atribuire
+## Core Features
 
-          vectori alocați dinamic
+* **Arithmetic Suite:** Supports addition, subtraction, multiplication, and division.
+* **Advanced Operations:** Includes power functions, square root, reciprocal (1/x), and negation.
+* **Automatic History Management:** Stores the last 10 results and their associated expressions as strings.
+* **State Control:** Functions to display history, clear memory, reset the current value, or reload a previous result for further calculation.
 
-          supraîncărcarea operatorilor +, -, *, /, !, []
+## Technical Concepts Applied
 
-          metode pentru operații matematice complexe
+* **Memory Management:** Implementation of the "Rule of Three" (Copy Constructor and Assignment Operator) to handle dynamically allocated arrays.
+* **Operator Overloading:** Custom implementations for +, -, *, /, !, and [] to provide intuitive interaction with the Calculator class.
+* **Data Structures:** Efficient handling of dynamic vectors for operation history.
+* **Encapsulation:** Proper use of access modifiers to protect the internal state of the calculator.
 
-Clasa este testată într-un main() care simulează comportamentul unui utilizator real de calculator.
+## Project Structure
+
+The class is designed for modularity and is tested within a main execution flow that simulates real-world user interactions with a standard calculator.
+
