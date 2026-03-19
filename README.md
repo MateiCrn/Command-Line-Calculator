@@ -2,8 +2,7 @@
 
 This project implements a functional pocket calculator in C++ using Object-Oriented Programming (OOP). Beyond basic arithmetic, the application features a dynamic memory system that tracks and stores the last 10 operations performed.
 
-> **Note:** This project was developed as a university assignment to demonstrate advanced C++ concepts, including manual memory management and operator overloading.
-
+> **Note:** This project was developed as a university assignment. While this documentation is in English, the codebase (class names and variables) uses Romanian terminology (e.g., class Calculator, methods for adunare, scadere) to align with the original academic requirements.
 ## Core Features
 
 * **Arithmetic Suite:** Supports addition, subtraction, multiplication, and division.
