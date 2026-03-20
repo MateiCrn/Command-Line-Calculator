@@ -13,7 +13,7 @@ class Calculator
 
 public:
 
-    Calculator()  // constructor explicit
+    Calculator()  // constructor implicit
     {
         this->numar = 0;
         this->nrRezultate = 0;
